@@ -1,0 +1,10 @@
+<section>
+    <app-formulario (emitirNoticia)="anadirNoticia($event)")></app-formulario>
+</section>
+<section>
+    @for(noticia of noticias; track $index;){
+        <app-noticia [noticia]="noticia"></app-noticia>
+    } @empty {
+        <p>Aqui no hay noticias</p>
+    }
+</section>

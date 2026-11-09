@@ -1,0 +1,14 @@
+<div>
+    <label for="titulo">Titulo: </label>
+    <input type="text" [(ngModel)]="noticia.titulo" id="titulo">
+    <label for="imagen">URL de la imagen: </label>
+    <input type="text" [(ngModel)]="noticia.imagen" id="imagen">
+    <label for="texto">Texto de la noticia: </label>
+    <input type="text" [(ngModel)]="noticia.cuerpo" id="texto">
+    <label for="fechaPublicacion">Fecha en la que se publica: </label>
+    <input type="date" [(ngModel)]="noticia.fechaPublicacion" id="fechaPublicacion">
+
+    <button (click)="enviarNoticia()" class="btn btn-primary">
+        Anadir
+    </button>
+</div>

@@ -1,0 +1,19 @@
+section {
+    width: 47%;
+}
+
+section:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-child app-noticia {
+    margin-block: 2%;
+    margin-right: 2%;
+}

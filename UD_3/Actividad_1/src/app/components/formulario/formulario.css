@@ -1,0 +1,15 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-block-start: 1%;
+}
+input {
+    margin-block-end: 1%;
+}
+
+button {
+    margin-block-start: 8%;
+}
